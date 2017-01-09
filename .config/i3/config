@@ -8,9 +8,29 @@ bindsym $mod+Shift+q kill
 # Font setting
 font pango:Monaco Display  8
 
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+# Color
+set $col1 #343C48
+set $col2 #528588
+set $col3 #E5E5E5
+set $col4 #BA5E57
+set $col5 #E38179
+set $col6 #343C48
+set $col7 #528588
+
+
+gaps inner 10
+gaps outer 5
+
+# class                 border  backgr. text    indicator child_border
+client.focused          $col2 $col2 $col2
+client.focused          $col2 $col2 $col2
+client.unfocused        $col6 $col6 $col6
+client.focused_inactive $col1 $col1 $col1
+client.urgent           $col1 $col1 $col1
+
+# Gasp
+
+
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -35,10 +55,10 @@ bindsym $mod+d exec dmenu_run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -59,10 +79,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+x split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+y split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
