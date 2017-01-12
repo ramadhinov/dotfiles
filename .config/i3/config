@@ -30,7 +30,9 @@ client.urgent           $col1 $col1 $col1
 
 # Gasp
 
+# Wallpaper
 
+exec_always feh --bg-scale /home/ramadhan/Pictures/bridge.jpg
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
