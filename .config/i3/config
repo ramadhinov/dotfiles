@@ -27,8 +27,8 @@ set $base0E #c0b7f9
 set $base0F #fcc09e
 
 # Gaps
-gaps inner 10
-gaps outer 5
+gaps inner 5
+gaps outer 3
 
 # Window colours
 #                       border  background text    indicator
@@ -40,6 +40,7 @@ client.urgent           $base02 $base08    $base00 $base0F
 # Wallpaper
 
 exec_always feh --bg-scale /home/ramadhan/Pictures/bridge.jpg
+exec_always compton --config ~/.compton.conf
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
