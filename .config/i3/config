@@ -1,5 +1,5 @@
 # Setting Mod Awal mod4 = super
-
+new_window 1pixel
 set $mod Mod4
 
 # kill focused window
