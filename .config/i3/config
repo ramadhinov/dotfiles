@@ -142,6 +142,11 @@ assign [class="google-chrome"] $ws2
 assign [class="Thunar"] $ws5
 assign [class="subl3"] $ws3
 
+# Multimedia bindsym
+bindsym XF86AudioRaiseVolume exec amixer -D pulse set Master 3%+ unmute
+bindsym XF86AudioLowerVolume exec amixer -D pulse set Master 3%- unmute
+bindsym XF86AudioMute exec amixer -q set Master toggle
+
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
