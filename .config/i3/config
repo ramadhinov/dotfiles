@@ -141,7 +141,7 @@ assign [class="Firefox"] $ws2
 assign [class="Google-chrome"] $ws2
 assign [class="Thunar"] $ws5
 assign [class="Subl3"] $ws3
-assign [class="Spotify"] $ws6
+assign [class="spotify"] $ws6
 
 
 # Multimedia bindsym
