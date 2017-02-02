@@ -24,6 +24,7 @@ Xft.lcdfilter: lcddefault
 URxvt.iso14755: False
 URxvt.keysym.Shift-Control-C: perl:clipboard:copy
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+urxvt*perl-ext-common:      default,matcher,clipboard
 URxvt.keysym.M-c: perl:clipboard:copy
 URxvt.keysym.M-v: perl:clipboard:paste
 ! URXVT SCROLLBAR AND CURSOR STYLE
