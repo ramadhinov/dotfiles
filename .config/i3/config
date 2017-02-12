@@ -136,14 +136,14 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # Auto assign application
 
-assign [class="urxvt"] $ws1
+assign [class="Urxvt"] $ws1
 assign [class="Firefox"] $ws2
 assign [class="Google-chrome"] $ws2
 assign [class="Thunar"] $ws5
 assign [class="Subl3"] $ws3
 assign [class="Spotify"] $ws6
 assign [class="Libreoffice"] $ws4
-
+assign [class="Leafpad"] $ws3
 
 # Multimedia bindsym
 bindsym XF86AudioRaiseVolume exec amixer -D pulse set Master 3%+ unmute

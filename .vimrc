@@ -1,2 +1,2 @@
 set number
-set g:powerline_pycmd = 'py3'
+let g:powerline_pycmd = 'py3'
